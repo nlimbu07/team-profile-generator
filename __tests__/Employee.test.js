@@ -7,19 +7,19 @@ test('creates new employee object', () => {
 });
 
 test('get employee name', () => {
-  const employee = new Employee('Niraj', 0, 'niraj@yahoo.com');
+  const employee = new Employee('Niraj', 1, 'niraj@yahoo.com');
 
   expect(employee.name).toBe('Niraj');
 });
 
 test('creates employee id', () => {
-  const employee = new Employee('Niraj', 0, 'niraj@yahoo.com');
+  const employee = new Employee('Niraj', 1, 'niraj@yahoo.com');
 
   expect(employee.id).toEqual(expect.any(Number));
 });
 
 test('get employee email', () => {
-  const employee = new Employee('Niraj', 0, 'niraj@yahoo.com');
+  const employee = new Employee('Niraj', 1, 'niraj@yahoo.com');
 
   expect(employee.email).toBe('niraj@yahoo.com');
 });
