@@ -4,9 +4,9 @@
 
 Built a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
-## Application Screenshot
+## Application Video
 
-![application screenshot](./recording/image.png)
+![application screenshot](./recording/Recording_Team_Profile_Generator.gif)
 
 ##### [Deployed Application](https://nlimbu07.github.io/team-profile-generator/)
 
